@@ -1,68 +1,98 @@
 # 🛡️ SOC Log Analyzer
 
-A Python-based Command Line Interface (CLI) tool that analyzes security log files and generates a detailed scan report.
+A Python-based Command Line Interface (CLI) tool that analyzes security log files and generates a detailed security report. The application extracts useful indicators, calculates log statistics, and provides an interactive terminal experience with colors and loading animations.
 
-This project was built as part of my cybersecurity learning journey to practice Python scripting, Regular Expressions, file handling, and terminal-based application development.
+---
+
+## 📌 Overview
+
+SOC Log Analyzer is a beginner-friendly cybersecurity project built in Python. It automates the process of reading log files, analyzing their contents, extracting security-related information, and generating a comprehensive report.
+
+This project was created to strengthen my understanding of:
+
+- Python Programming
+- File Handling
+- Regular Expressions
+- Exception Handling
+- CLI Application Development
+- Basic Security Log Analysis
 
 ---
 
 ## ✨ Features
 
-- 📂 Read security log files
-- 📊 Count:
+- 📂 Analyze security log files
+- 📊 Display:
   - Total Lines
   - Total Words
   - Total Characters
-- 📈 Analyze log entries:
-  - INFO
-  - WARNING
-  - ERROR
+- 📈 Count:
+  - INFO Entries
+  - WARNING Entries
+  - ERROR Entries
 - 📧 Extract Email Addresses
 - 🌐 Extract IPv4 Addresses
-- 📁 Display File Size
-- 📅 Show Scan Date & Time
-- 💾 Save generated reports
+- 📏 Display File Size
+- 📅 Display Scan Date & Time
+- 💾 Save scan reports
 - 🎨 Colored terminal output
 - ⏳ Animated loading screens
-- ⚠ Error handling for missing files
+- ⚠️ Graceful error handling for missing files
 
 ---
 
-## 🛠 Technologies Used
+## 🛠️ Technologies Used
 
 - Python 3
-- Regular Expressions (re)
-- os Module
-- datetime Module
+- Regular Expressions (`re`)
+- `os` Module
+- `datetime` Module
 - ANSI Terminal Colors
 
 ---
 
-## 📸 Example Output
+## 📂 Project Structure
 
 ```text
-==============================
-      SOC LOG ANALYZER
-==============================
+soc-log-analyzer/
+│
+├── main.py
+├── sample.log
+├── README.md
+├── .gitignore
+└── report.txt (Generated after scan)
+```
 
-Initializing..........
-Loading Modules..........
-Preparing Scanner..........
+---
 
-Ready!
+## 📸 Project Demonstration
 
-Opening Log File..........
-Reading File..........
-Analyzing..........
+### 📄 Security Log Successfully Analyzed and Report Saved
 
-File Loaded Successfully!
+> The application successfully analyzed the selected log file, generated scan statistics, extracted email addresses and IPv4 addresses, and saved the final report to the specified location.
 
+> *(Insert Screenshot 1 here)*
+
+---
+
+### 🚪 Graceful Exit After Security Log Analysis
+
+> Demonstrates the application's clean exit process after completing log analysis when the user chooses not to save the generated report.
+
+> *(Insert Screenshot 2 here)*
+
+---
+
+## 📋 Example Report
+
+```text
 ==============================
       FILE STATISTICS
 ==============================
 
 File Name         : server.log
-File Size         : 520 Bytes
+File Size         : 542 Bytes
+
 Total Lines       : 18
 Total Words       : 145
 Total Characters  : 932
@@ -74,21 +104,8 @@ ERROR Entries     : 2
 Emails Found      : 4
 IP Addresses      : 6
 
-Scan Date         : 12-07-2026
-Scan Time         : 22:15:48
-```
-
----
-
-## 📂 Project Structure
-
-```
-soc-log-analyzer/
-│
-├── main.py
-├── sample.log
-├── README.md
-└── report.txt
+Scan Date         : 13-07-2026
+Scan Time         : 09:30:18
 ```
 
 ---
@@ -97,27 +114,27 @@ soc-log-analyzer/
 
 - Progress Bar
 - Spinner Animation
-- Duplicate IP Detection
 - Duplicate Email Detection
-- Hash Detection
+- Duplicate IP Detection
 - CSV Report Export
 - JSON Report Export
-- Better Log Parsing
+- Improved Log Parsing
 - Menu-Based Interface
+- Hash Detection
 
 ---
 
-## 🎯 Learning Outcomes
+## 📚 Learning Outcomes
 
-This project helped me practice:
+Through this project, I practiced:
 
-- Python Programming
 - File Handling
 - Exception Handling
 - Regular Expressions
-- CLI Development
+- String Manipulation
+- Terminal UI Design
 - Report Generation
-- Terminal Animations
+- Python Modules
 - Basic Security Log Analysis
 
 ---
@@ -126,8 +143,14 @@ This project helped me practice:
 
 **Yuvraj Singh**
 
-Cybersecurity Student | Python Learner | Aspiring Ethical Hacker
+🎓 Computer Science (AI & ML) Student
+
+🛡️ Aspiring Cybersecurity Professional
+
+🐍 Python Developer
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+## ⭐ Support
+
+If you found this project useful or interesting, consider giving it a **⭐ Star** on GitHub.
