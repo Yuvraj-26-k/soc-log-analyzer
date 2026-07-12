@@ -1,0 +1,31 @@
+
+
+File Name : server.log 
+
+File Size : 252 Bytes 
+
+Total Lines   : 15 
+
+Total Words   : 32  
+
+Total Characters : 237 
+
+           
+INFO Entries : 2 
+
+Warning Entries : 1 
+
+Error Entries : 2 
+
+        
+Emails Found :  1    
+
+IP Addresses : 2     
+
+           
+Scan Date   :  13-07-2026 
+
+Scan Time   :  01:54:04 
+
+           
+            
