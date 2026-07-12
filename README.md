@@ -59,7 +59,6 @@ soc-log-analyzer/
 ├── main.py
 ├── sample.log
 ├── README.md
-├── .gitignore
 └── report.txt (Generated after scan)
 ```
 
@@ -71,6 +70,7 @@ soc-log-analyzer/
 
 > The application successfully analyzed the selected log file, generated scan statistics, extracted email addresses and IPv4 addresses, and saved the final report to the specified location.
 ---
+
 ## 📄 Sample Files
 
 This repository includes:
